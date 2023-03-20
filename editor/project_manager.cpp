@@ -114,6 +114,7 @@ private:
 	String created_folder_path;
 
 	void set_message(const String &p_msg, MessageType p_type = MESSAGE_SUCCESS, InputType input_type = PROJECT_PATH) {
+		// Test fix for nothing.
 		msg->set_text(p_msg);
 		Ref<Texture2D> current_path_icon = status_rect->get_texture();
 		Ref<Texture2D> current_install_icon = install_status_rect->get_texture();
